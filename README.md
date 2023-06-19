@@ -8,3 +8,5 @@ Test it out:
 - the route is : `localhost:port/api/v1/products`
 ## this was just to practice querying data 
 ( data was added to the db from `products.json` (look at populate.js)
+
+### Thanks to the goat John Smilga
