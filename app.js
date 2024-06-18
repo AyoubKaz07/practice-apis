@@ -18,6 +18,10 @@ app.get('/', (req, res) => {
     res.send('<h1>Store API</h1><a href="/api/v1/products">products route</a>')
 })
 
+app.get('/health', (req, res) => {
+    res.status(200).json({ message: 'API is running' })
+})
+
 // products route
 app.use('/api/v1/products', ProductsRouter)
 
